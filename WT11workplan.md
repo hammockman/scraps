@@ -36,3 +36,8 @@ Analysis
 --------
 
 Similar to WT10
+
+Todo
+----
+
+1. Automate post-processing (images + masses > matlab > R)
