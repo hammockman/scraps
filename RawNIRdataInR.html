@@ -67,7 +67,8 @@ img {
 </div>
 
 
-<p>Based on my current understanding of raw (.dat) files RD generates, the following function loads raw data from file:</p>
+<p>As I understand it, the raw (.dat) files RD generates are a sequence of unsigned, little-endian, 16-bit integers written for each position, then each wavelength, then each frame.</p>
+<p>Based on the above, the following function loads raw data from file:</p>
 <pre class="r"><code>readRaw &lt;- function(filename, output.format='array') { 
   finfo = file.info(filename)
   toread= file(filename, &quot;rb&quot;)
