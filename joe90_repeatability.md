@@ -5,7 +5,7 @@ Joe90 Measurement Uncertainty
 Background - Joe90
 ----------
 
-The Joe90 system has been in use at Scion since 2007, with a number of refinements being implemented on top of the original system designed by Joescan for Weyerhaeuser:
+The Joe90 system has been in use at Scion since 2007, with a number of refinements implemented on top of the original system designed by Joescan for Weyerhaeuser:
 
 - replacement of the original point cloud post-processing algorithm,
 - modification of the board mounting system,
@@ -88,13 +88,11 @@ No attempt will be made to control other board characteristics (e.g. surface fin
 
 Initially, a set of 6 boards will tested, presuming boards with suitable combinations of characteristics can found. Should analysis indicate that measurement uncertainty depends strongly on board characteristics (e.g. warp level) further boards may need to be tested.
 
-To keep the number of scans to a minimum, only a single board size (100x40's) and length will be considered .
+To keep the number of scans to a minimum, only a single board size (100x40 mm) and length (5 m) will be considered. Boards will be selected from the subset of LS15 boards currently being monitored at monthly intervals. 
 
-Selected boards will all be reduced to the maximum length which can be fitted into an environmentally controlled room. (2.4m?)[^board-length]. 
+Selected boards will be inserted into a polythene sock, and will be kept in the sock except for when actually being scanned. 
 
-[^board-length]: While the boards whose measurement uncertainty is most urgently required are 5m long, these boards cannot be kept in a controlled environment. It is possible that board length affects measurement uncertainty
-
-After selection, and for a minimum of 1 week prior to commencing scanning, the selected boards will be placed into a controlled environment. Temperature and RH within the conditioning environment will be recorded continuously for the duration of the experiment.
+The selected boards, each contained within their socks, will be kept in the wrapped stack environment. Temperature and RH within the conditioning environment (i.e. within the plastic wrapped stack) will be recorded continuously for the duration of the experiment.
 
 
 ### Board Scanning
@@ -184,4 +182,4 @@ References
 * http://en.wikipedia.org/wiki/Measurement_systems_analysis
 * [ISO 5725 Accuracy of Measurement Methods and Results](https://www.iso.org/obp/ui/#iso:std:iso:5725:-1:ed-1:v1:en)
 * ASTM E2782 Standard Guide for measurement systems analysis
-
+* arendacka14
